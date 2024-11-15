@@ -3,7 +3,7 @@ all: setup test
 setup:
 	pip3 install pipenv && pipenv install --dev
 test:
-	pipenv run python setup.py pytest
+	pipenv run pytest
 doc:
 	pipenv run pdoc deriv_api --force --html -o docs/html --template-dir docs/templates
 build:
