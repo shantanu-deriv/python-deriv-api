@@ -9,7 +9,6 @@ setup(
     author_email='learning+python@deriv.com',
     license='MIT',
     install_requires=['websockets==10.3', 'reactivex==4.0.*'],
-    test_suite='tests',
     url='https://github.com/deriv-com/python-deriv-api',
     project_urls={
         'Bug Tracker': "https://github.com/deriv-com/python-deriv-api/issues",
