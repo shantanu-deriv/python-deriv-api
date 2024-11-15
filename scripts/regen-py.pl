@@ -114,7 +114,7 @@ sub needs_method_arg {
     return 1;
 }
 
-emit_functions($ENV{BINARYCOM_API_SCHEMA_PATH} // '/home/git/binary-com/deriv-developers-portal/config/v3');
+emit_functions($ENV{BINARYCOM_API_SCHEMA_PATH} // '/home/git/deriv-com/deriv-api-docs/config/v3');
 
 my $template = Template->new(
     INCLUDE_PATH => "$distroot/scripts/templates",

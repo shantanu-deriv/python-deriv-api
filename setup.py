@@ -10,12 +10,12 @@ setup(
     license='MIT',
     install_requires=['websockets==10.3', 'reactivex==4.0.*'],
     test_suite='tests',
-    url='https://github.com/binary-com/python-deriv-api',
+    url='https://github.com/deriv-com/python-deriv-api',
     project_urls={
-        'Bug Tracker': "https://github.com/binary-com/python-deriv-api/issues",
-        'Documentation': "https://binary-com.github.io/python-deriv-api",
-        'Source Code': "https://github.com/binary-com/python-deriv-api",
-        'Changelog': "https://github.com/binary-com/python-deriv-api/blob/master/CHANGELOG.md"
+        'Bug Tracker': "https://github.com/deriv-com/python-deriv-api/issues",
+        'Documentation': "https://deriv-com.github.io/python-deriv-api",
+        'Source Code': "https://github.com/deriv-com/python-deriv-api",
+        'Changelog': "https://github.com/deriv-com/python-deriv-api/blob/master/CHANGELOG.md"
     },
     python_requires=">=3.9.6, !=3.9.7",
     classifiers=[

@@ -3,7 +3,7 @@ A python implementation of deriv api library.
 
 [![PyPI](https://img.shields.io/pypi/v/python_deriv_api.svg?style=flat-square)](https://pypi.org/project/python_deriv_api/)
 [![Python 3.9.6](https://img.shields.io/badge/python-3.9.6-blue.svg)](https://www.python.org/download/releases/3.9.6/)
-[![Test status](https://circleci.com/gh/binary-com/python-deriv-api.svg?style=shield&circle-token=8b7c7b39615ea83053044854105bf90975b18126)](https://app.circleci.com/pipelines/github/binary-com/python-deriv-api)
+[![Test status](https://circleci.com/gh/binary-com/python-deriv-api.svg?style=shield&circle-token=8b7c7b39615ea83053044854105bf90975b18126)](https://app.circleci.com/pipelines/github/deriv-com/python-deriv-api)
 
 Go through [api.deriv.com](https://api.deriv.com/) to know simple easy steps on how to register and get access.
 Use this all-in-one python library to set up and make your app running or you can extend it.
@@ -58,13 +58,13 @@ If you pass the connection it's up to you to reconnect in case the connection dr
 # Documentation
 
 #### API reference
-The complete API reference is hosted [here](https://binary-com.github.io/python-deriv-api/)
+The complete API reference is hosted [here](https://deriv-com.github.io/python-deriv-api/)
 
-Examples [here](https://github.com/binary-com/python-deriv-api/tree/master/examples)
+Examples [here](https://github.com/deriv-com/python-deriv-api/tree/master/examples)
 
 # Development
 ```
-git clone https://github.com/binary-com/python-deriv-api
+git clone https://github.com/deriv-com/python-deriv-api
 cd python-deriv-api
 ```
 Setup environment
