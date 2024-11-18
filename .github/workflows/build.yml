@@ -56,7 +56,7 @@ jobs:
         echo "password=$PYPI_TOKEN" >> ~/.pypirc
     - name: release
       run: |
-        python3 -m pip install --upgrade twine
+        python3 -m pip install --upgrade setuptools wheel build twine
         make build
         python3 -m twine upload --repository pypi dist/*
         echo "deployed to pypi"
